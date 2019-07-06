@@ -1,0 +1,403 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    font-family: 'Playfair Display', serif;
+}
+/*topbar css*/
+.topbar 
+{
+    padding: 30px 0;
+}
+.container {
+    width: 1200px;
+    margin: 0px auto;
+}
+.logo {
+    width: 30%;
+    float: left;
+}
+.logo img 
+{
+
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+.menu ul {
+    list-style: none;
+    float: right;
+}
+.menu ul li {
+    display: inline;
+    margin: 45px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #222;
+    padding: 5px;
+}
+
+.menu ul li a:hover
+ {
+    color: #f1e4e4;
+    cursor: pointer;
+    background: black;
+}
+/*Bennar */
+.banner {}
+.banner img {
+    width: 100%;
+}
+.single {
+    padding: 80px 0;
+}
+.category, .comment 
+{
+    font-family:  'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.single h1 {
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 30px;
+}
+.single p {
+    color: #626262;
+    font-size: 16px;
+    line-height: 24px;
+}
+.comment
+{
+    margin-bottom: 0;
+    margin-top: 30px; 
+}
+/*blog post section*/
+.blog-posts, .second-blog-posts 
+{
+    padding: 60px 0;
+}
+.box {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+.box img {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.box h1 {
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 30px;
+}
+.box p {
+    color: #626262;
+    font-size: 16px;
+    line-height: 24px;
+}
+.box .cetegory {}
+
+/*Newsletter section start*/
+.newsletter {
+    padding: 80px 0;
+    background: #f0f0f0;
+    clear: both;
+    text-align: center;
+}
+.newsletter h1{
+    color: #333333;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.newsletter form{
+    border-bottom: 1px solid;
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 80px;
+}
+.newsletter form input{
+    padding: 10px;
+    border: none;
+    position: unset;
+    top: -15px;
+    left: 0;
+    width: 80%;
+    background: transparent;
+}
+.newsletter form img{}
+/*Newsletter section end*/
+/*second blognpost stsrt*/
+.second-blog-posts
+
+/*second blog post connectted with blog post css*/
+/*botton start*/
+.btn {
+    text-align: center;
+    clear: both;
+}
+.button {
+    color: #110c02;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid #b4ad9e;
+    padding: 20px 30px;
+    /* background: #f5f5dc; */
+}
+.button:hover {background: #b3b3b2;}
+/*Button end*/
+/************Footer start***********/
+footer 
+{
+    background: #e6e5e5;
+    padding: 40px 0;
+}
+.copyright 
+{
+    width: 50%;
+    float: left;
+}
+.copyright p
+{
+    color: #000000;
+    font-size: 15px;
+}
+.social 
+{
+    width: 50%;
+    float: left;
+}
+.social ul
+{
+    text-align: right;
+    list-style: none;
+}
+.social ul li
+{
+    display: inline;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.social ul li a
+{
+    color: #626262;
+}
+/**********Footer End*************/*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    font-family: 'Playfair Display', serif;
+}
+/*topbar css*/
+.topbar 
+{
+    padding: 30px 0;
+}
+.container {
+    width: 1200px;
+    margin: 0px auto;
+}
+.logo {
+    width: 30%;
+    float: left;
+}
+.logo img 
+{
+
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+.menu ul {
+    list-style: none;
+    float: right;
+}
+.menu ul li {
+    display: inline;
+    margin: 45px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #111111;
+    padding: 12px;
+}
+
+.menu ul li a:hover
+ {
+    color: #f1e4e4;
+    cursor: pointer;
+    background: black;
+}
+/*Bennar */
+.banner {}
+.banner img {
+    width: 100%;
+}
+.single {
+    padding: 80px 0;
+}
+.category, .comment 
+{
+    font-family:  'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.single h1 {
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 30px;
+}
+.single p {
+    color: #626262;
+    font-size: 16px;
+    line-height: 24px;
+}
+.comment
+{
+    margin-bottom: 0;
+    margin-top: 30px; 
+}
+/*blog post section*/
+.blog-posts, .second-blog-posts 
+{
+    padding: 60px 0;
+}
+.box {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+.box img {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.box h1 {
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 30px;
+}
+.box p {
+    color: #626262;
+    font-size: 16px;
+    line-height: 24px;
+}
+.box .cetegory {}
+
+/*Newsletter section start*/
+.newsletter {
+    padding: 80px 0;
+    background: #f0f0f0;
+    clear: both;
+    text-align: center;
+}
+.newsletter h1{
+    color: #333333;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.newsletter form{
+    border-bottom: 1px solid;
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 80px;
+}
+.newsletter form input{
+    padding: 10px;
+    border: none;
+    position: unset;
+    top: -15px;
+    left: 0;
+    width: 80%;
+    background: transparent;
+}
+.newsletter form img{}
+/*Newsletter section end*/
+/*second blognpost stsrt*/
+.second-blog-posts
+
+/*second blog post connectted with blog post css*/
+/*botton start*/
+.btn {
+    text-align: center;
+    clear: both;
+}
+.button {
+    color: #110c02;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid #b4ad9e;
+    padding: 20px 30px;
+    /* background: #f5f5dc; */
+}
+.button:hover {background: #b3b3b2;}
+/*Button end*/
+/************Footer start***********/
+footer 
+{
+    background: #e6e5e5;
+    padding: 40px 0;
+}
+.copyright 
+{
+    width: 50%;
+    float: left;
+}
+.copyright p
+{
+    color: #000000;
+    font-size: 15px;
+}
+.social 
+{
+    width: 50%;
+    float: left;
+}
+.social ul
+{
+    text-align: right;
+    list-style: none;
+}
+.social ul li
+{
+    display: inline;
+    font-size: 15px;
+    padding: 2px 3px;
+    margin-left: 20px;
+}
+.social ul li a
+{
+    color: #4267b2;
+    padding: 4px 5px;
+}
+.social ul li a:hover
+{
+    
+background: white;
+/*padding: 4px 5px; */
+}
+/**********Footer End*************/
